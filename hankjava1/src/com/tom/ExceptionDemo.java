@@ -7,7 +7,7 @@ public class ExceptionDemo {
 
 	public static void main(String[] args) {
 		Random random = new Random();
-		int bonus = random.nextInt(999999999);
+		int bonus = random.nextInt(99999999);
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("多少人分？");
 		String number = scanner.nextLine();
